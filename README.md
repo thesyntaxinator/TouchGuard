@@ -22,7 +22,7 @@ chmod +x TouchGuard
 sudo ./TouchGuard -time 0.2
 ```
 
-Launches TouchGuard with a time interval of 200 ms (disables the touchpad for 200 ms each time a key is pressed on the keyboard). I have found this to be effective for me -- if you are still having issues (e.g. you can't use the trackpad immediately after typing, or your cursor still jumps), you can adjust the time interval up or down as needed.
+The above launches TouchGuard with a time interval of 200 ms (disables the touchpad for 200 ms each time a key is pressed on the keyboard). I have found this to be effective for me -- if you are still having issues (e.g. you can't use the trackpad immediately after typing, or your cursor still jumps), you can adjust the time interval up or down as needed.
 
 *Note: You will need to manually relaunch the app each time you restart your computer. A future goal is to create an installer with an option to automatically run the program (with elevated privileges) every time the computer starts. If you would like to work on this, feel free to fork the project and let me know if you get it working (see contact info under "Support" below).*
 
