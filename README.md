@@ -15,12 +15,12 @@ Disables Mac touchpad for a user-specified amount of time each time a key is pre
 
 ------------------
 ## Sample command line usage (for the more tech-savvy)
-`
+```
 # make the downloaded release file executable
 chmod +x TouchGuard
 # run it
 sudo ./TouchGuard -time 0.2
-`
+```
 
 Launches TouchGuard with a time interval of 200 ms (disables the touchpad for 200 ms each time a key is pressed on the keyboard). I have found this to be effective for me -- if you are still having issues (e.g. you can't use the trackpad immediately after typing, or your cursor still jumps), you can adjust the time interval up or down as needed.
 
