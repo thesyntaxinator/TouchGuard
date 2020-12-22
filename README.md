@@ -11,7 +11,7 @@ Disables Mac touchpad for a user-specified amount of time each time a key is pre
 - Open Terminal, type "chmod +x ", drag the drop the downloaded file into the Terminal window, and press enter (this only needs to be done once after downloading the file).
 - Then type "sudo", drag and drop the downloaded file into the Terminal window, type " -time 0.2" and press enter. You may be prompted for your password; if so, type it and presss enter. Note that you will not see the cursor move while typing your password -- this is normal and done for security reasons.
 - Keep the terminal window open. If you close the window, the program will exit. You can hide the window by typing "command-h".
-- You will need to manually relaunch the app each time you restart your computer using the above sequence of steps. To auto-start after you restart your computer, see an unofficial extension of the project at [amanagr/TouchGuard](https://github.com/amanagr/TouchGuard).
+- You will need to manually relaunch the app each time you restart your computer using the above sequence of steps. To auto-start after you restart your computer, see an unofficial extension of the project at <a href="https://github.com/amanagr/TouchGuard" target="_blank">amanagr/TouchGuard</a>.
 
 ------------------
 ## Sample command line usage (for the more tech-savvy)
